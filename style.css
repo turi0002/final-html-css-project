@@ -1,0 +1,135 @@
+
+  body {
+    background-color: white;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .header-continer {
+    background-color: #1c49c2;
+    width: 100vw;
+    height: 10vw;
+    position: relative;
+    left: 0;
+    margin-top: 0;
+    margin-left: 0;
+    display: flex;
+    padding-top: 5vh;
+    flex-wrap: wrap;
+  }
+  h1 {
+    color: white;
+    margin-top: 0%;
+    margin-left: 0;
+    left: 5vw;
+    text-align: left;
+    padding-left: 5vw;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+
+  .headline-img {
+    width: 3vw;
+    height: 3vw;
+    background-color: #1c49c2;
+  }
+  * {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 0;
+    margin: 0;
+  }
+
+  .search-container {
+    max-width: 600px;
+    margin-left: 5vw;
+  }
+  input[type="text"] {
+    display: block;
+    width: calc(
+      100% - 24px
+    ); /*20px [ left & Right ] padding + 4px border [ left & Right ] */
+    font-size: 18px;
+    font-weight: 600;
+    color: #4b00ff;
+    padding: 10px;
+    border: 2px solid #4b00ff;
+  }
+
+  .search-container form {
+    position: relative;
+  }
+  .search-container form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    background: transparent;
+    border: transparent;
+    font-size: 20px;
+    color: #4b00ff;
+    cursor: pointer;
+    outline: 0;
+  }
+  #help-continer {
+    display: flex;
+    align-items: center;
+    height: 8vh;
+  }
+
+  #help-btn {
+    width: 3vw;
+    height: 3vw;
+    padding-left: 4vw;
+  }
+  #help-text {
+    padding-left: 1vw;
+    color: whitesmoke;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+  #login-continer {
+    padding-left: 4vw;
+    display: flex;
+    align-items: center;
+    height: 8vh;
+  }
+  #login-img {
+    width: 7vw;
+    height: 7vh;
+  }
+  #login-text {
+    color: whitesmoke;
+  }
+  #nav-continer {
+    width: 100%;
+    height: 6vh;
+    background-color: #1c49c2;
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav-link{
+    text-decoration: none;
+  }
+  .nav-text{
+    color: whitesmoke;
+}
+.footer-continer{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+#youtube-gif{
+  height:8vh;
+  width: 8vw;
+}
+#insta-gif{
+  height:8vh;
+  width: 8vw;
+}
+#x-gif{
+  height:8vh;
+  width: 8vw;
+}
+  #link{
+    text-decoration: none;
+  }
