@@ -1,23 +1,28 @@
 .hero-continer{
     display: flex;
     align-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 #video-continer{
     display: flex;
     width: 100%;
     align-content: center;
+    position: relative;
 }
 #vid-headline{
     height: 3vh;
-    font-family: Comic Sans MS, Comic Sans, cursive;
     position: relative;
-   left: 40%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    left: 40%;
 }
 #dog-vid{
     position: relative;
-    left: 24%;
+    left: 20vw;
+    height: 25vh;
+    width: 25vw;
+    padding-top: 4%;
+    pointer-events: none;
 }
 .products-body{
 margin-top: 10vh;
@@ -327,4 +332,34 @@ margin-top: 10vh;
     height: 25vh;
     width: 20vw;
   }
+  @media only screen and (max-width: 450px) {
+    #vid-headline{
+      padding-top: 15vh;
+      left: 30%;
+    }
+    #dog-vid{
+      left: 0%;
+      padding-right: 20vh;
+      padding-top: 30%;
+    }
+    #video-continer{
+      position: relative;
+      height: 40vh;
+    }
+    #grid-products{
+      grid-template-columns: repeat(1, 2fr);
+    grid-template-rows: repeat(6, 2fr);
+    }
+    .g-img{
+      width: 50vw;
+    }
+  }
+  #legal{
+    font-size: 4px;
+  }
+  .footer-gifs{
+    display: flex;
+    align-items: center;
+  }
+  
   
