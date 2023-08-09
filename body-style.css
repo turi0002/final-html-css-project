@@ -23,6 +23,18 @@
     width: 25vw;
     padding-top: 4%;
     pointer-events: none;
+    top: -500px;
+    animation: slideInTop 2s ease-in-out forwards;
+}
+@keyframes slideInTop {
+  0% {
+    top: -500px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
 }
 .products-body{
 margin-top: 10vh;
