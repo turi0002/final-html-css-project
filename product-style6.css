@@ -101,7 +101,10 @@ background-image: url(assets/shower.jpg);
 }
 @media only screen and (max-width: 450px) {
   #change-text {
-  bottom: 6vh;
-  left: 45vw;
+  bottom: 10vh;
+  left: 35vw;
   }
+  .product-card{
+    width: 60vw; 
+   }
 }
