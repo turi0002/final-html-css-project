@@ -100,3 +100,9 @@
 /* opacity: 0; */
 background-image: url(assets/bird-cage2);
 }
+@media only screen and (max-width: 450px) {
+  #change-text {
+  bottom: 6vh;
+  left: 45vw;
+  }
+}

@@ -1,101 +1,103 @@
+body {
+  background: #7ed6df;
+  transition: 0.6s linear;
+}
 
-  
-   
-  body{
-    background: #7ed6df;
-    transition: 0.6s linear;
-  }
-   
-  .product-card{
+.product-card {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 400px;
-    background: #ecedef;
-    padding: 40px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    text-transform: uppercase;
-    border-radius: 20px;
-  }
-  .product-card h1{
-    font-size: 22px;
-    margin-bottom: 4px;
-  }
-  .product-card p{
-    font-size: 13px;
-    color: #bbb;
-  }
-  .product-pic{
-    background-image: url(assets/swimming.jpg);
-    width: 100%;
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    /* transition: .6s linear; */
-  }
-  .product-colors{
-    margin-bottom: 40px;
-    margin-top: 2vh;
-    display: flex;
-    justify-content: center;
-  }
-   
-  .product-colors span{
-    width: 14px;
-    height: 14px;
-    margin: 0 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    position: relative;
-  }
-  .blue{
-    background: #7ed6df;
-  }
-  .green{
-    background: #badc58;
-  }
-  .yellow{
-    background: #f9ca24;
-  }
-  .rose{
-    background: #ff7979;
-  }
- 
-   #change-text{
-    margin-right: 5vw;
-    color: blue;
-    position: absolute;
-    bottom: 11vh;
-   }
-  
-  .product-info{
-    display: flex;
-    align-items: center;
-  }
-  .product-price{
-    color: #7ed6df;
-    font-size: 26px;
-  }
-  .product-button{
-    margin-left: auto;
-    color: #7ed6df;
-    text-decoration: none;
-    border: 2px solid;
-    padding: 8px 24px;
-    border-radius: 20px;
-    transition: .4s linear;
-  }
-   
-  .product-button:hover{
-    transform: scale(1.06);
-  }
+  width: 400px;
+  background: #ecedef;
+  padding: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+.product-card h1 {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+.product-card p {
+  font-size: 13px;
+  color: #bbb;
+}
+.product-pic {
+  background-image: url(assets/swimming.jpg);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+.product-colors {
+  margin-bottom: 40px;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+}
 
-  .second-img{
-    background-image: url(assets/pool-in.12748f90379694c2efa0da0ed3b65198-3949620228);
+.product-colors span {
+  width: 14px;
+  height: 14px;
+  margin: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+.blue {
+  background: #7ed6df;
+}
+.green {
+  background: #badc58;
+}
+.yellow {
+  background: #f9ca24;
+}
+.rose {
+  background: #ff7979;
+}
+
+#change-text {
+  margin-right: 5vw;
+  color: blue;
+  position: absolute;
+  bottom: 11vh;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+}
+.product-price {
+  color: #7ed6df;
+  font-size: 26px;
+}
+.product-button {
+  margin-left: auto;
+  color: #7ed6df;
+  text-decoration: none;
+  border: 2px solid;
+  padding: 8px 24px;
+  border-radius: 20px;
+  transition: 0.4s linear;
+}
+
+.product-button:hover {
+  transform: scale(1.06);
+}
+
+.second-img {
+  background-image: url(assets/pool-in.12748f90379694c2efa0da0ed3b65198-3949620228);
+}
+
+#change-text:hover + .product-pic {
+  background-image: url(assets/pool-in.12748f90379694c2efa0da0ed3b65198-3949620228);
+}
+
+@media only screen and (max-width: 450px) {
+  #change-text {
+  bottom: 6vh;
+  left: 45vw;
   }
-  
-#change-text:hover + .product-pic{
-/* opacity: 0; */
-background-image: url(assets/pool-in.12748f90379694c2efa0da0ed3b65198-3949620228);
 }

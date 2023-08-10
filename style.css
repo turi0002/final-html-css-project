@@ -29,7 +29,7 @@
     text-align: left;
     padding-left: 5vw;
     font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 150%;
+    font-size: 100%;
     
   }
 
@@ -158,7 +158,7 @@
     text-decoration: none;
   }
   
-  @media only screen and (max-width: 450px) {
+ @media only screen and (max-width: 450px) {
     .doggo-vid{
       display: none;
     }
@@ -168,6 +168,11 @@
     #help-continer{
       display: none;
     }
+    
+    .el-wrapper{
+      margin-left: 1vw;
+    }
+    body, html { overflow-x:hidden; }
 
   }
   .dropdown {
